@@ -9,11 +9,16 @@
     "object"
   ],
   "scripts": {
-    "test": "mocha"
+    "test": "mocha **/*.spec.js",
+    "build:readme": "jsdoc2md --heading-depth=3 --template README.tpl.md index.js > README.md",
+    "prepublish": "npm run build:readme"
   },
   "author": {
     "name": "Kevin Thomas",
     "email": "hamgom95@gmail.com"
+  },
+  "husky": {
+    "pre-commit": "npm run build:readme"
   },
   "devDependencies": {
     "chai": "^4.2.0",
