@@ -1,6 +1,6 @@
 {
   "name": "@hamgom95/pick",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "pick properties from object",
   "main": "index.js",
   "types": "index.d.ts",
