@@ -1,12 +1,12 @@
-# @hamgom95/pick
+## @hamgom95/pick
 
 pick allows extracting multiple object properties by name.
 
-## API Documentation
+### API Documentation
 
 <a name="pick"></a>
 
-### pick(obj, ...props) ⇒
+#### pick(obj, ...props) ⇒
 Extract specific properties of object in new object.Typed that:- keys to extract have to exist in obj- returned obj has right types for extracted obj
 
 **Kind**: global function  
